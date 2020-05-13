@@ -12,7 +12,7 @@ SELECT * FROM Users WHERE created_dt = '02-01-2020';
 
 SELECT * FROM Users WHERE Created_dt >= '2020-01-04' AND Created_dt <= '2020-01-06';
 
-UPDATE teamsUbong SET Status = 'Activated' WHERE Name IN ('Tim', 'Tolu', 'Ade');
+UPDATE Users SET Status = 'Activated' WHERE Name IN ('Tim', 'Tolu', 'Ade');
 
 UPDATE Users SET Name = 'Timothy' WHERE ID = 2
 
